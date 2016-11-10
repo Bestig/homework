@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title> leeson 05 </title>
+    <title> lesson 05 </title>
   </head>
   <body>
 <?php
