@@ -18,8 +18,8 @@ $profiles = json_decode($json_data, true);
    </tr>
 <? foreach ($profiles as $profile): ?>
    <tr>
-     <td> <?php echo $profile['name']; ?> <td>
-     <td> <?php echo $profile['age']; ?> <td>
+     <td> <?php echo $profile['name']; ?> </td>
+     <td> <?php echo $profile['age']; ?> </td>
      </tr>
 <? endforeach; ?>
 </table>
