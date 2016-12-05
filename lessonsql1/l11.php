@@ -7,7 +7,7 @@
 
 <body>
 
-<? php
+<?php
 $mysqli = new mysqli("localhost", "shupletsov", "neto0700", "global");
 $res = $mysqli->query("SELECT name FROM books");
 $res->data_seek(0);
