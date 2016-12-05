@@ -7,7 +7,7 @@
 
 <body>
 
-<? php
+<?php
 error_reporting(E_ALL);
 $pdo = new PDO("mysql:host=localhost;dbname=global",'shupletsov','neto0700');
 $sql = "SELECT * FROM books";
